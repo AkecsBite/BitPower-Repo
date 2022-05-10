@@ -1,0 +1,73 @@
+:root {
+ --clr-primary-100: #8D6CFA;
+ --clr-primary-200: #16054E;
+ --clr-primary-300: #4ECC4E;
+
+ --clr-secondary-100: #8B82A7;
+ --clr-secondary-200: #000;
+
+ --fw-400: 400;
+ --fw-700: 700;
+
+ --fs-72: 7.2rem;
+ --fs-64: 6.4rem;
+ --fs-48: 4.8rem;
+ --fs-32: 3.2rem;
+ --fs-24: 2.4rem;
+ --fs-16: 1.6rem;
+ --fs-14: 1.4rem;
+
+ --background-clr-100: #9070F6;
+ --background-clr-200: #FFFFFF;
+ --background-clr-300: #4ECC4E;
+ --background-clr-400: #060125;
+ --background-clr-500: #EAF9EA;
+
+}
+
+html {
+ font-size: calc(100vw/1440 * 10);
+}
+
+
+body {
+ background: #F8F8FD;
+ font-family: 'Euclid Circular A', sans-serif;
+ font-style: normal;
+ font-weight: var(--fw-400);
+ font-size: var(--fs-24);
+ line-height: var(--fs-32);
+ scroll-behavior: smooth;
+ color: #000;
+}
+
+/* utilities */
+.purple_text {
+ color: var(--clr-primary-100);
+}
+
+.green_text {
+ color: var(--clr-primary-300);
+}
+
+.br-100 {
+ border-radius: 100rem;
+}
+
+.br-24 {
+ border-radius: 2.4rem;
+}
+
+.br-32 {
+ border-radius: 3.2rem;
+}
+
+.br-8 {
+ border-radius: 0.8rem;
+}
+
+.mb-3 {
+ margin-bottom: 3rem;
+}
+
+/* end of utilities */
